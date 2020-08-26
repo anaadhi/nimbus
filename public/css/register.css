@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: neuro;
+    src: url("../fonts/neuropolitical_rg.ttf");
+  }
+  @font-face {
+    font-family: titillium;
+    src: url("../fonts/TitilliumWeb-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: nova;
+    src: url("../fonts/Proxima_Nova_Font.otf");
+  }
+  @font-face {
+    font-family: sfb;
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Bold.ttf");
+  }
+  @font-face {
+    font-family: sf;
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+  }
+.left{  
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+.laptop{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 75%;
+    height: auto;
+}
+.reg-cont{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    float: right;
+    width: 77%;
+    height: 75%;
+    background-color: #222222;
+    box-shadow: -35px 35px rgb(34, 34, 34, 0.3);
+}
+.reg{
+    position: relative;
+    top:50%;
+    width: 100%;
+    transform: translateY(-60%);
+    text-align: center;
+}
+.title{
+    font-size: 2.5vw;
+    font-family: sfb;
+    color: #7ACCC4;
+    margin-bottom: 2px;
+}
+hr{
+    width: 35%;
+    height: 7px;
+    background-color: #7ACCC4;
+    border: none;
+}
+.inputs{
+    width: 100%;
+    margin-top:20%;
+}
+.email{
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%) translateY(-30px);
+    background:transparent;
+    text-align:center;
+    border-width: 0px 0px 5px 0px;
+    padding-bottom: 10px;
+    font-size: 1.3vw;
+    color:white;
+    font-family: sf;
+    width: 75%;
+}
+.submit{
+    margin-top: 22%;
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    margin-top: 15%;
+    padding: 10px 45px;
+    background-color: #7ACCC4;
+    font-size: 1vw;
+    font-family: titillium;
+    border:none;
+    cursor:pointer
+}
+#pass{
+    transform: translateY(20px) translateX(-50%);
+    opacity: 0;
+    display: none;
+    animation: none;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+        transform: translateY(20px) translateX(-50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(-30px) translateX(-50%);
+    }
+}
+@keyframes fadeout{
+    0%{
+        display: inline-block;
+        opacity: 1;
+        transform: translateY(-30px) translateX(-50%);
+    }
+    99%{
+        display: inline-block;
+        opacity: 0;
+        transform: translateY(-60px) translateX(-50%);
+    }
+    100%{
+        display: none;
+        opacity: 0;
+        transform: translateY(-60px) translateX(-50%);
+    }
+}
+
+#pass2{
+    transform: translateY(70px) translateX(-50%);
+    opacity: 0;
+    display: none;
+}
+#submit{
+    display: none;
+}
+#next{
+    display: inline-block;
+}
+#next2{
+    display: none;
+  }
+#sss{
+    background-color: transparent;
+    color:#7ACCC4;
+    margin-top: 2vh;
+}

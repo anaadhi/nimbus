@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+@font-face {
+    font-family: neuro;
+    src: url("../fonts/neuropolitical_rg.ttf");
+  }
+  @font-face {
+    font-family: titillium;
+    src: url("../fonts/TitilliumWeb-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: nova;
+    src: url("../fonts/Proxima_Nova_Font.otf");
+  }
+.titlebox{
+    background-color: #7ACCC4;
+    display: inline-block;
+    position: relative;
+    top:6vh;
+    left: 6vh;
+}
+.title{
+    margin:0;
+    padding: 2.5vh 6vw;
+    font-family: titillium;
+    box-shadow: 30px 35px rgb(112, 204, 192, 0.2);
+}
+.select{
+    width: 35vw;
+    height: 35vh;
+    background-color: #232323;
+    position: absolute;
+    top:50%;
+    left:25%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 30px 35px rgb(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: nova;
+    color:#7ACCC4;
+    font-size: 1.5vw;
+}
+.left{
+    float: left;
+    height: 100vh;
+    width: 50%;
+}
+form{
+  width: 80%;
+  position: relative;
+  top:40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+select{
+  padding-left: 2px;
+  margin-left: 20px;
+  border:none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  -webkit-appearance:none;
+  font-family: nova;
+  color:#7ACCC4;
+  width: 40%;
+  font-size: 1.2vw;
+}
+option{
+  background-color:#232323;
+  font-size: 1vw;
+}
+.bottom{
+  background-color: #232323;
+  position: absolute;
+  width: 35vw;
+  height: 20vh;
+  margin-bottom: 5vh;
+  bottom:0;
+  left:25%;
+  transform: translateX(-50%);
+}
+.submit{
+  position: absolute;
+  top:40vh;
+  transform: translateX(-17.5vw) translateY(50%);
+  font-family: nova;
+  color:#232323;
+  font-size: 2vw;
+  background-color: #7ACCC4;
+  border:none;
+  padding: 0.7vw 3.5vw;
+  cursor: pointer;
+}
+.cost{
+  position: absolute;
+  top:70vh;
+  margin-left: 10vw;
+  font-size: 1.9vw;
+  font-family: nova;
+}
+.train{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60vw;
+  margin:0;
+}
+.right{
+  width: 50%;
+  float: right;
+  height: 100vh;
+  background-color: white;
+}
+.info{
+  line-height: 10vh;
+  font-size: 1.5vw;
+  font-family: nova;
+  margin-top: 10vh;
+  margin-left: 5vw;
+}

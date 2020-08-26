@@ -1,0 +1,245 @@
+body{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: neuro;
+    src: url("../fonts/neuropolitical_rg.ttf");
+  }
+  @font-face {
+    font-family: titillium;
+    src: url("../fonts/TitilliumWeb-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: nova;
+    src: url("../fonts/Proxima_Nova_Font.otf");
+  }
+  @font-face{
+    font-family: sfb;
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Bold.ttf");
+  }
+.h-bg{
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  left:0;  
+  z-index: -1;
+}
+.sec2-bg{
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top:100vh;
+    right:0;  
+    z-index: -1;
+}
+.sec3-bg{
+    width: 60.7%;
+    height: 100vh;
+    position: absolute;
+    top:200vh;
+    left:0;  
+    z-index: -1;
+}
+.left{  
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+.h-img{
+    width: 75%;
+    height: auto;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+}
+
+
+
+/* header */
+
+/* container */
+.h-cont{    
+    width: 50%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/* title */
+.h-title{
+    font-family: neuro;
+    color: #9DEDE9;
+    font-size: 3.5vw;
+    margin:0;
+}
+.h-slogan{
+    font-family: titillium;
+    color: #ffffff;
+    font-size: 1.3vw;
+}
+.h-para{
+    color: #ffffff;
+    font-size: 1.1vw;
+    width: 75%;
+    margin-left: 10%;
+    font-family: nova;
+}
+#top{margin-top: 15%;}
+#mid{width: 55%;}
+
+.h-buttons{
+    display: inline-block;
+    width: 100%;
+}
+.button{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    margin-top: 15%;
+    padding: 10px 35px;
+    background-color: #7ACCC4;
+    font-size: 1.3vw;
+    font-family: titillium;
+}
+
+#lb{float:left}
+#rb{float:right}
+
+
+/* section2 */
+.sec2-img{
+    width: 50%;
+    height: auto;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.sec2-cont{
+    float: right;
+    width: 65%;
+    margin-right: 10%;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.sec2-title{
+    font-family: sfb;
+    color: #9DEDE9;
+    font-size: 2.9vw;
+    margin:0;
+    
+    
+}
+.sec2-para{
+    word-spacing: 0.2vw;
+    color: #ffffff;
+    font-size: 1.15vw;
+    width: 95%;
+    font-family: nova;
+}
+#sec2-rb{
+    float:right;
+    padding: 10px 45px;
+}
+
+
+
+/* footer */
+.foot-img{
+    height: 100vh;
+    float:right;
+    position: relative;
+    top:50%;
+    transform:translateY(-50%)
+}
+.foot-cont{
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+    width: 85%;
+    margin-left: 10%;
+}
+ul{
+    margin-top: 7%;
+    padding-left: 2vw;
+}
+.foot-li{
+    color: #ffffff;
+    width: 95%;
+    font-family: nova;
+    padding-left:1vw ;
+    line-height: 14.5vh;
+    font-size: 2.5vw;
+}
+.sizing{
+    font-size: 1.2vw;
+    display: inline-block;
+    line-height: 3vh;
+    transform: translateY(1vh);
+}
+#bottom2{
+    transform:translateY(3vh)
+}
+#foot-rb{
+    float:right;
+    padding: 10px 45px;
+    margin-right: 15%;
+    margin-top: 7%;
+}
+
+
+
+/* icons */
+.icons{
+    width: 3vw;
+    position: absolute;
+    bottom:5%;
+    right: 5%;
+}
+.icon{
+    cursor: pointer;
+    width: 3vw;
+    height: auto;
+    margin-top:3vh;
+}
+.iconl{
+    cursor: pointer;
+}
+#map{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(34, 34, 34, 0.95);
+    z-index: 100;
+    display: none;
+}
+.map{
+    width: 80%;
+    height: auto;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.cross{
+    position: absolute;
+    top:10%;
+    right: 10%;
+    width: 3vw;
+    cursor: pointer;
+}

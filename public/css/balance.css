@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+}
+@font-face {
+    font-family: neuro;
+    src: url("../fonts/neuropolitical_rg.ttf");
+  }
+  @font-face {
+    font-family: titillium;
+    src: url("../fonts/TitilliumWeb-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: nova;
+    src: url("../fonts/Proxima_Nova_Font.otf");
+  }
+  @font-face {
+    font-family: sfb;
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Bold.ttf");
+  }
+  @font-face {
+    font-family: sf;
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+  }
+.left{
+    float:left;
+    width: 50%;
+    height: 100%;
+}
+.right{
+    float:right;
+    width: 50%;
+    height: 100%;
+}
+.profilecont{
+    float: right;
+    position: relative;
+    top:50%;
+    width: 75%;
+    transform: translateY(-50%);
+    background-color: #282828;
+    height: 54%;
+    box-shadow: 40px 40px rgb(40, 40, 40, 0.2);
+}
+.title{
+    position: absolute;
+    top:5vh;
+    left:5vh;
+    padding:1vw 5vw;
+    background-color: #7ACCC4;
+    font-family: titillium;
+    font-size: 1.5vw;
+    box-shadow: 20px 20px rgb(150, 220, 218, 0.2);
+    text-align: center;
+}
+.titled{
+    font-size: 2vw;
+    color:#7ACCC4;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-family: titillium;
+}
+.amount{
+    width: 50%;
+    font-family: titillium;
+    font-size: 1.5vw;
+    color:#7ACCC4;
+    line-height: 10vh;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+.amounts{
+    float:left;
+    transform: translateY(50px);
+}
+.input{
+    float: right;
+    border:none; 
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    width: 50%;
+    font-family: titillium;
+    font-size: 1.5vw;
+    color:#7ACCC4;
+    transform: translateY(8vh);
+}
+.submit{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 1.3vw;
+    font-family: titillium;
+    color:black;
+    background-color: #7ACCC4;
+    border:0;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.money{
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 40%;
+}

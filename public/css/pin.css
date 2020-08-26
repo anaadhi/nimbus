@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #232323;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+@font-face {
+    font-family: neuro;
+    src: url("../fonts/neuropolitical_rg.ttf");
+  }
+  @font-face {
+    font-family: titillium;
+    src: url("../fonts/TitilliumWeb-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: nova;
+    src: url("../fonts/Proxima_Nova_Font.otf");
+  }
+.centered{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#7ACCC4;
+    font-family: nova;
+}
+hr{
+    width: 20%;
+    border: 1px solid #7ACCC4;
+}
+h1{
+    font-size: 2.3vw;
+}
+.pin{
+    font-size: 2vw;
+    letter-spacing: 2vw;
+    text-align: center;
+    display: inline-block;
+    transform: translateX(1vw);
+}
+.button{
+    background-color: #7ACCC4;
+    margin-top: 5vh;
+    display: inline-block;
+    color: #232323;
+    padding: 1vw 3vw;
+    text-decoration: none;
+    
+}

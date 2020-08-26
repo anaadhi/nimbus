@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/book.css" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <div class="left">
+    <div class="titlebox">
+        <h1 class="title">Booking</h1>
+    </div>
+    <div class="select">
+        <form method="POST">
+            <p class="start">Start location:<select id="first" name="first">
+                <option value="1">Das Bhavan</option>
+                <option value="2">Dimrinagar</option>
+                <option value="3">Bhatia Bagh</option>
+                <option value="4">Sivanskapur</option>            
+                <option value="5">Rudr Enclave</option>
+                <option value="6">Verdant Phase 3</option>
+                <option value="7">Vignesh Garh</option>            
+                <option value="8">Agarwal Palace</option>
+                <option value="9">Mongia Vihar</option>
+                <option value="10">Amargaon</option>
+            </select></p>
+            <br>
+            <p class="start">Stop location:<select id="second" name="second">
+                <option value="1">Das Bhavan</option>
+                <option value="2">Dimrinagar</option>
+                <option value="3">Bhatia Bagh</option>
+                <option value="4">Sivanskapur</option>            
+                <option value="5">Rudr Enclave</option>
+                <option value="6">Verdant Phase 3</option>
+                <option value="7">Vignesh Garh</option>            
+                <option value="8">Agarwal Palace</option>
+                <option value="9">Mongia Vihar</option>
+                <option value="10">Amargaon</option>
+            </select></p>
+            <input class="submit" type="submit" value="Book">
+        </form>
+    </div>
+    <p class="cost">Cost: <span id="cost">--</span></p>
+
+    <img class="train" src="https://cdn.discordapp.com/attachments/430704906169614338/747057642890985562/train-02.png">
+
+</div>
+<div class="right">
+        <p class="info">
+            Seats available: <%= seats %><br>
+            ETA: <span id="min">--</span> min<br>
+            Upcoming ride at:  <span id="ride"></span><%= time %>
+        </p>
+</div>
+<script src="/js/book.js">
+</script>
+</body>
+</html>

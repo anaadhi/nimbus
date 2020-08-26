@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/home.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Nimbus</title>
+</head>
+<body>
+    <div id="map">
+        <img class="cross" id="cross" src="https://cdn.discordapp.com/attachments/430704906169614338/748233522963284058/x1.svg">
+        <img class="map" src="https://cdn.discordapp.com/attachments/430704906169614338/748231092275904553/Route.png">
+    </div>
+    <header>
+        <img class="h-bg" src="https://cdn.discordapp.com/attachments/430704906169614338/746410233152405585/unknown.png">
+        <div class="icons">
+            <a href="/metro/login"><img src="https://cdn.discordapp.com/attachments/430704906169614338/746745113820004492/unknown.png" class="icon"></a>
+            <img onclick="mapo()" src="https://cdn.discordapp.com/attachments/430704906169614338/746745446281773237/unknown.png" class="icon">
+
+        </div>
+        <div class="left">
+            <div class="h-cont">
+                <h1 class="h-title">Nimbus</h1>
+                <h1 class="h-slogan">Some Catch Phrase</h1>
+                <p class="h-para" id="top">Lorem ipsum dolor sit amet labore, consectetur apising tempor incid.</p>
+                <p class="h-para" id="mid">Tempor incididunt dolore magna aliqua. </p>
+                <p class="h-para">Ut enim ad minim veniam, quis nost rud exercitation pulmonaris.  </p>
+                <p class="h-buttons"><a class="button" id="lb" href="/metro">Register</a><a class="button" id="rb" href="#about">About us</a></p>
+            </div>
+        </div>
+        <div class="right">
+            <img class="h-img" src="https://cdn.discordapp.com/attachments/430704906169614338/746427686788005959/Nimbus-1-02.png">
+        </div>
+    </header>
+    <section class="sec2">
+        <img class="sec2-bg" id="about" src="https://cdn.discordapp.com/attachments/430704906169614338/746411128862670938/unknown.png">
+        <div class="left">
+            <img class="sec2-img" src="https://cdn.discordapp.com/attachments/430704906169614338/746668782780678174/Nimbus2-02.png">
+        </div>
+        <div class="right">
+            <div class="sec2-cont">
+                <h1 class="sec2-title" id="titles">Why Nimbus?</h1>
+                <p class="sec2-para" id="top" data-aos="fade-left" data-aos-once="true" data-aos-duration="500" data-aos-anchor="#titles">We believe in providing quality transport to <br>our passengers, a feat which is verified by<br>
+                our customers.</p>
+                <p class="sec2-para" data-aos="fade-left" data-aos-once="true" data-aos-duration="500" data-aos-delay="200" data-aos-anchor="#titles">Comfort for the customers <br>and punctuality regarding our schedule is of<br> utmost importance to us.</p>
+                <p class="sec2-para" data-aos="fade-left" data-aos-once="true" data-aos-duration="500" data-aos-delay="400" data-aos-anchor="#titles">Our consistency<br> in this promise is a testament to the hard-<br>work our team here at Nimbus provides.
+                </p>
+                <a class="button" id="sec2-rb" href="#sec33">Learn more</a>
+
+            </div>
+        </div>
+    </section>
+    <footer class="sec2">
+        <img class="sec3-bg" id="sec33" src="https://cdn.discordapp.com/attachments/430704906169614338/746415633322737724/unknown.png">
+        <div class="left">
+            <div class="foot-cont">
+                <h1 class="sec2-title" id="titless">Nimbus has...</h1>
+                <ul>
+                    <li class="foot-li" data-aos="fade-right" data-aos-once="true" data-aos-duration="800" data-aos-anchor="#titless"><span class="sizing">Two floors!  It is a double decker , and can accommodate 2400 passengers at once.</span></li>
+                    <li class="foot-li" data-aos="fade-right" data-aos-once="true" data-aos-duration="800" data-aos-delay="300" data-aos-anchor="#titless"><span class="sizing">Spacious seats! Keeping social distance in mind,<br> every seat is seperated by glass dividers.</span></li>
+                    <li class="foot-li" data-aos="fade-right" data-aos-once="true" data-aos-duration="800" data-aos-delay="600" data-aos-anchor="#titless"><span class="sizing" id="bottom2">Proper sanitary practices. We clean the seats after <br>every cycle of the route. Customer health is our<br> priority.</span></li>
+                </ul>
+                <div class="h-buttons">
+                    <a class="button" id="foot-rb" href="/metro/login">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img class="foot-img" src="https://cdn.discordapp.com/attachments/430704906169614338/746730223151874149/Nimbus3-03.png">
+        </div>
+        <script>
+            function mapo(){
+                document.getElementById('map').style.display = "block";
+            }
+            function close(){
+                document.getElementById('map').style.display = "none";
+                console.log("f");
+            }
+            document.getElementById("cross").addEventListener("click", function(event) {
+                document.getElementById('map').style.display = "none";
+                console.log("f");
+            });
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </footer>
+</body>
+</html>

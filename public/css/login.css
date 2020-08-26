@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding: 0;
+}
+@font-face {
+    font-family: neuro;
+    src: url("../fonts/neuropolitical_rg.ttf");
+  }
+  @font-face {
+    font-family: titillium;
+    src: url("../fonts/TitilliumWeb-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: nova;
+    src: url("../fonts/Proxima_Nova_Font.otf");
+  }
+  @font-face {
+    font-family: sfb;
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Bold.ttf");
+  }
+  @font-face {
+    font-family: sf;
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+  }
+.left{
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+.img{
+    position: relative;
+    width: 60%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.login{
+    width: 75%;
+    float: right;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    background-color: #232323;
+    text-align: center;
+    font-family: titillium;
+    box-shadow: -40px 40px rgb(34, 34, 34, 0.2);
+}
+.title{
+    color: #7ACCC4;
+    margin-bottom: 2vh;
+}
+.f{
+    font-family: titillium;
+    color: #7ACCC4;
+    float: left;
+    width: 30%;
+    font-size: 1.7vw;
+    text-align: left;
+
+}
+input{
+    float: right;
+    width: 60%;
+    color: #7ACCC4;
+}
+form{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-top: 5vh;
+}
+
+.top{
+    width: 100%;
+    height: 9vh;
+    margin-top: 3vh;
+}
+input{
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    font-family: titillium;
+    color: #7ACCC4;
+    font-size: 1.5vw;
+    text-align: left;
+}
+.submit{
+    margin-top: 22%;
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    margin-top: 15%;
+    padding: 10px 45px;
+    background-color: #7ACCC4;
+    font-size: 1vw;
+    font-family: titillium;
+    border:none;
+    cursor:pointer;
+    transform: translateX(-50%);
+}
+.last{
+    height: 30vh;
+}
+hr{
+    width: 20%;
+    border: 2px solid #7accc4;
+    margin-bottom: 5.5vh;
+}
+.register{
+    display: inline-block;
+    color:#7ACCC4;
+    margin-top: 3vh;
+    text-decoration: none;
+    font-family: titillium;
+    font-size: 1.1vw;
+}

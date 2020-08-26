@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/profile.css" rel="stylesheet">
+    <title>Nimbus - Profile</title>
+</head>
+<body>
+    <div class="title">Profile</div> 
+    <img class="grass" src="https://cdn.discordapp.com/attachments/430704906169614338/747534656798195772/grass-02.png">
+    <img class="light" src="https://cdn.discordapp.com/attachments/430704906169614338/747528486717227129/light-02.png">
+    <div class="left">
+        <div class="profilecont">
+            <div class="tops">
+                <div class="left" id="left1"><img class="pfp" src="https://cdn.discordapp.com/attachments/430704906169614338/747538032625713172/pfp-02.png"></div>
+                <div class="right" id="right1">
+                   
+                        <form class="info" method="POST">
+                        <span class="infobox">Name:</span><span class="items" id="i1"><%= name %></span><input class="items" required name="name" id="i11" value="<%= name %>"> <br>
+                        <span class="infobox">Email:</span><span class="items" id="i2"><%= DOB %> </span><input type="email" required class="items" name="email" id="i22" value="<%= DOB %>"><br>
+                        <span class="infobox">Number:</span> <span class="items" id="i3"><%= number %></span>
+                        <input class="items" name="number" id="i33" type="number" value="<%= number %>" minlength="10" required>
+                        <input class="items" type="submit" id="none" required="true">
+                    </form>
+                   
+                </div>
+            </div>
+            <div class="bots">
+                <div class="left" id="l2">
+                    <p class="cbt">
+                        Balance:<br>
+                        <span class="sizing"><%= bal %></span>
+                    </p>
+                </div>
+                <div class="right">
+                    <p class="cbt2">
+                        subscription:<br>
+                        <span class="sizing">premium</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <ul>
+            <li id="top"><a onclick="edit()">Edit Profile</a></li>
+            <li><a href="/metro/balance"> Add Balance</a></li>
+            <li><a href="/metro/book">Book</a></li>
+            
+        </ul>
+    </div>
+    <script src="/js/edit.js">
+    </script>
+</body>
+</html>
